@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #ececec;
+}
+
+.principal {
+    padding: 3rem;
+    text-align: center;
+    background: #072327;
+    color: white;
+  }
+
+.navegacion {
+    display: flex;
+    background-color: #36858A;
+    justify-content: center;
+  }
+
+.navegacion a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+.fila {  
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.side {
+   flex: 30%;
+   padding: 20px;
+}
+
+.espacio {
+    padding-right: 35%;
+}
+
+@media screen and (max-width: 700px) {
+    .fila, .navegacion {   
+    flex-direction: column;
+ }
+}
+  
+.imagenEstilo {
+    background-color: #aaa;
+    width: 22rem;
+    padding: 20px;
+}
